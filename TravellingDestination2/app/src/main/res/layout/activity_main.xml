@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFEFE "
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="337dp"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/head" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/skip"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="164dp"-->
+<!--        android:layout_marginRight="164dp"-->
+<!--        android:layout_marginBottom="65dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:onClick="tohome"-->
+
+<!--        android:text="Skip"-->
+<!--        android:textColor="#2E86C1 "-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold"-->
+
+<!--        />-->
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="53dp"
+        android:onClick="linkregister"
+        android:text="Create new account"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="186dp"
+        android:text="Forget Password ?"
+        android:textColor="#D35400"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="272dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="368dp"
+        android:src="@drawable/login"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="283dp"
+        android:gravity="center"
+        android:hint="Enter you email"
+        android:inputType="text"
+        android:textSize="15sp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="223dp"
+        android:gravity="center"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+
+
+        android:layout_marginBottom="109dp"
+        android:background="@drawable/box"
+        android:text="Login"
+        android:textColor="#FDFEFE "
+
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="356dp"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

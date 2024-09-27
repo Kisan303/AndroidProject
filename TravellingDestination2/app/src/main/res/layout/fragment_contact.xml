@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FDFEFE"
+     >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="Contact Us"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:justificationMode="inter_word"
+        android:text="@string/aboutinfo"
+        />
+
+
+    <!--**************DIVIDER LINE ******************************-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="130dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="22dp"
+        android:text="Developers"
+        android:textStyle="bold"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        />
+
+
+    <!--*******ROHIT SHAKYA MOBILE DEVELOPERS*************************-->
+
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/developerbox"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="25dp"
+        android:onClick="profileclick"
+        android:outlineSpotShadowColor="#707B7C "
+        android:src="@drawable/rohit"
+        android:elevation="4dp"
+        />
+
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="Rohit Shakya"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:text="Mobile Application Developer"
+        android:textSize="10dp"
+        />
+
+    <ImageView
+        android:onClick="rgmail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mail"
+        android:layout_marginTop="259dp"
+        android:layout_marginLeft="290dp"
+
+
+        />
+
+
+    <!--  **************************** SUBASH DEVELOPER XML*************************   -->
+
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/developerbox"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="25dp"
+        android:onClick="profileclick"
+        android:outlineSpotShadowColor="#707B7C "
+        android:src="@drawable/subash"
+        android:elevation="4dp"
+        />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="345dp"
+        android:gravity="center"
+        android:text="  Subash gurung"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="374dp"
+        android:gravity="center"
+        android:text="Backend Developer"
+        android:textSize="10dp"
+        />
+
+
+    <ImageView
+        android:onClick="sgmail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mail"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="290dp"
+
+        />
+
+
+    <!--  **************************** KISAN DEVELOPER XML*************************   -->
+
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/developerbox"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginLeft="25dp"
+        android:onClick="profileclick"
+        android:outlineSpotShadowColor="#707B7C "
+        android:src="@drawable/kisan"
+        android:elevation="4dp"
+        />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="465dp"
+        android:gravity="center"
+        android:text="Kisan Rai"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="495dp"
+        android:gravity="center"
+        android:text=" Data Scientist|Backend Developer"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:onClick="kgmail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mail"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="290dp"
+
+        />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item>
+
+        /// fro search box shapes
+
+        <shape android:shape="rectangle">
+            <stroke android:color=" #D5D8DC  " android:width="2dp"/>
+
+
+            <solid android:color=" #FDFEFE " />
+
+            <corners android:radius="15sp" />
+
+        </shape>
+
+
+    </item>
+
+</selector>

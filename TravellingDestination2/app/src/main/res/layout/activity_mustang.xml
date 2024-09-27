@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Mustang">
+
+
+
+    <!--        ********  BACK SPACE ICON ***************-->
+
+    <ImageView
+        android:onClick="backHomepage"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_keyboard_backspace_black_24dp"
+        android:layout_marginLeft="-12dp"
+
+        />
+
+
+    <!--        ***************PROFILE ICON  *************************-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/profileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:onClick="profileclick"
+        android:elevation="10dp"
+        android:src="@drawable/profileimg"
+
+        />
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Discover new adventure"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="90dp"
+
+            android:fontFamily="sans-serif-medium"
+            android:text="Find popular places in Mustang city"
+            android:textColor="#D5D8DC"
+            android:textSize="13dp" />
+
+
+        <!--********** MUKTINATH TEMPLE IMAGES XML**********-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tomuktinath"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/muktinath"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="189dp"
+            android:background="@drawable/halfbox"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="196dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Mustang,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="196dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Muktinath"
+            android:textSize="20dp" />
+
+
+
+
+        <!--************Jomsom XML **************************-->
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tojomsom"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="240dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/jomsom"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="429dp"
+            android:background="@drawable/halfbox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="436dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Mustang,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="436dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Jomsom"
+            android:textSize="20dp" />
+
+
+
+        <!--***************KAGBENI XML********************-->
+
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tokagbeni"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="480dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/kagbeni"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="669dp"
+            android:background="@drawable/halfbox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="676dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Mustang,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="676dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Kagbeni"
+            android:textSize="20dp" />
+
+
+        <!--*********MARPHA XML*************************-->
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tomarpha"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="720dp"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/marpha" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="909dp"
+            android:background="@drawable/homepagebox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="916dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Mustang,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="916dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Marpha"
+            android:textSize="20dp" />
+
+
+        <!--*******UPPER MUSTANG XML ***********************-->
+
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="touppermustang"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="960dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/jharkot"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="1149dp"
+            android:background="@drawable/halfbox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="1156dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Mustang,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="1156dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="upperMustang"
+            android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    </RelativeLayout>
+
+
+

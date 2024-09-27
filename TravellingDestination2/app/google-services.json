@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "371397200491",
+    "firebase_url": "https://travellingdestination-8cde6.firebaseio.com",
+    "project_id": "travellingdestination-8cde6",
+    "storage_bucket": "travellingdestination-8cde6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371397200491:android:744716a8e9ea5d96d6bf2e",
+        "android_client_info": {
+          "package_name": "com.example.travellingdestination"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371397200491-57srgoc1fd156g8l26guu5f0hemhh18p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travellingdestination",
+            "certificate_hash": "26bc6ca91dcc69abfe5972e10d59330b4c4c0cef"
+          }
+        },
+        {
+          "client_id": "371397200491-15j98hfljuajke09pipi61hjb9a2glem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCldxI8sjej-FXFiwJB5WWMKM0cL9_y0zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371397200491-15j98hfljuajke09pipi61hjb9a2glem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

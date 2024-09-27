@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFEFE "
+    tools:context=".LoginMainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="574dp"
+        android:src="@drawable/register" />
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="215dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="365dp"
+        android:src="@drawable/molisyo" />
+
+    <EditText
+
+        android:id="@+id/FullName"
+        android:layout_width="369dp"
+        android:layout_height="49dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="310dp"
+        android:background="@drawable/box2"
+        android:gravity="center"
+        android:hint="Enter your Full Name"
+        android:inputType="text"
+        android:textSize="15sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/Phone"
+        android:layout_width="369dp"
+        android:layout_height="49dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/box2"
+        android:gravity="center"
+        android:hint="Enter your Phone Number"
+        android:inputType="phone"
+        android:textSize="15sp" />
+
+    <EditText
+
+        android:id="@+id/Email"
+        android:layout_width="369dp"
+        android:layout_height="49dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+
+        android:layout_marginLeft="19dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="246dp"
+        android:background="@drawable/box2"
+        android:gravity="center"
+        android:hint="Enter Your Email"
+        android:inputType="text"
+        android:textSize="15sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/Password"
+        android:layout_width="369dp"
+        android:layout_height="49dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+
+        android:layout_marginLeft="22dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="186dp"
+        android:background="@drawable/box2"
+        android:gravity="center"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="99dp"
+
+        android:layout_marginLeft="99dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+
+
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/box"
+        android:text="Register"
+        android:textColor="#FDFEFE "
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="17dp"
+        android:onClick="backlogin"
+        android:text="Already Register ? Login Here" />
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="371dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

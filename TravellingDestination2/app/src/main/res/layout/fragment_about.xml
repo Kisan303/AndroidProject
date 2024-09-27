@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFEFE "
+>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="About this app"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        />
+
+        <TextView
+            android:layout_width="169dp"
+            android:layout_height="218dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:justificationMode="inter_word"
+            android:text="@string/aboutapp" />
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="60dp"
+        android:scaleX="1.4"
+        android:scaleY="1.4"
+        android:src="@drawable/aboutapp"
+
+        />
+
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="250dp"
+        android:text="Benefit"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="280dp"
+        android:scaleX="1.4"
+        android:scaleY="1.4"
+        android:src="@drawable/benifit" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="305dp"
+            android:justificationMode="inter_word"
+            android:text="@string/benefits" />
+
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="460dp"
+        android:text="Key Features"
+        android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="500dp"
+            android:justificationMode="inter_word"
+            android:text="@string/keyfeautre" />
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="500dp"
+        android:scaleX="1.4"
+        android:scaleY="1.4"
+        android:src="@drawable/keyfeature" /></RelativeLayout>
+
+
+</ScrollView>

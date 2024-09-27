@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+        <!--    ********** KATHMANDU XML PART ************    -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/andika"
+                    android:text="Home Page"
+                    android:textColor="#818F91 "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/homepagebox"
+
+                    />
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Kathmandu"
+                    android:textColor="#2C3E50"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="172dp"
+                    android:layout_height="97dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="90dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/aboutktm"
+                    android:textColor="#BDC3C7 "
+                    android:justificationMode="inter_word"
+                    android:textSize="15dp"
+                    />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="190dp"
+                    android:numStars="5"
+                    android:scaleX=".6"
+                    android:scaleY=".6"
+                    android:stepSize="0.5"
+
+                    />
+
+                <!--    *********LIKE BUTOON ANIMATION ******************** -->
+                <com.like.LikeButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon_type="heart"
+                    app:icon_size="25dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="220dp"
+                    />
+                <!--      *******************************************************-->
+
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:layout_width="197dp"
+                    android:layout_height="212dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginTop="50dp"
+                    app:shadowColor="#17202A"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/kathmandu"
+                    />
+
+                <Button
+                    android:onClick="visiteBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Visit"
+                    android:layout_marginTop="260dp"
+                    android:layout_marginLeft="150dp"
+                    android:elevation="30dp"
+                    android:background="@drawable/btnhome"
+                    android:textColor="#FDFEFE"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+
+
+
+
+
+                <!--        ********** POKHARA XML***************-->
+
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="330dp"
+                    android:background="@drawable/homepagebox" />
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:layout_width="197dp"
+                    android:layout_height="212dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginTop="330dp"
+                    app:shadowColor="#17202A"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/pokhara" />
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="340dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Pokhara"
+                    android:textColor="#2C3E50"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="102dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="370dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/aboutpokhara"
+                    android:textColor="#BDC3C7 "
+                    android:justificationMode="inter_word"
+                    android:textSize="15dp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="471dp"
+                    android:numStars="5"
+                    android:scaleX=".6"
+                    android:scaleY=".6"
+                    android:stepSize="0.5"
+                    />
+
+
+                <!--    *********LIKE BUTOON ANIMATION ******************** -->
+                <com.like.LikeButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon_type="heart"
+                    app:icon_size="25dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="500dp"
+                    />
+                <!--      *******************************************************-->
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="538dp"
+                    android:background="@drawable/btnhome"
+                    android:elevation="30dp"
+                    android:gravity="center"
+                    android:text="Visit"
+                    android:textColor="#FDFEFE"
+                    android:textStyle="bold"
+                    android:onClick="topokhara"
+                    />
+
+
+
+                <!--        *************MUSTAING XML**************-->
+
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="600dp"
+                    android:background="@drawable/homepagebox" />
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:layout_width="197dp"
+                    android:layout_height="212dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginTop="596dp"
+                    app:shadowColor="#17202A"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/mustang" />
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="605dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Mustang"
+                    android:textColor="#2C3E50"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/aboutmustang"
+                    android:textColor="#BDC3C7"
+                    android:justificationMode="inter_word"
+                    android:textSize="15dp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="730dp"
+                    android:numStars="5"
+                    android:scaleX=".6"
+                    android:scaleY=".6"
+                    android:stepSize="0.5"
+                    />
+
+
+                <!--    *********LIKE BUTOON ANIMATION ******************** -->
+                <com.like.LikeButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon_type="heart"
+                    app:icon_size="25dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="765dp"
+                    />
+                <!--      *******************************************************-->
+
+                <Button
+                    android:onClick="tomustang"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="810dp"
+                    android:background="@drawable/btnhome"
+                    android:elevation="30dp"
+                    android:gravity="center"
+                    android:text="Visit"
+                    android:textColor="#FDFEFE"
+                    android:textStyle="bold" />
+
+
+
+                <!--        ************CHITWAN XML*************-->
+
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="870dp"
+                    android:background="@drawable/homepagebox" />
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:layout_width="197dp"
+                    android:layout_height="212dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginTop="865dp"
+                    app:shadowColor="#17202A"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/chitwan" />
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="875dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Chitwan"
+                    android:textColor="#2C3E50"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="900dp"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/aboutchitwan"
+                    android:textColor="#BDC3C7"
+                    android:justificationMode="inter_word"
+                    android:textSize="15dp" />
+
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="1000dp"
+                    android:numStars="5"
+                    android:scaleX=".6"
+                    android:scaleY=".6"
+                    android:stepSize="0.5"
+                    />
+
+
+                <!--    *********LIKE BUTOON ANIMATION ******************** -->
+                <com.like.LikeButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon_type="heart"
+                    app:icon_size="25dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="1035dp"
+                    />
+                <!--      *******************************************************-->
+
+                <Button
+                    android:onClick="toChtiwan"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="1080dp"
+                    android:background="@drawable/btnhome"
+                    android:elevation="30dp"
+                    android:gravity="center"
+                    android:text="Visit"
+                    android:textColor="#FDFEFE"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+

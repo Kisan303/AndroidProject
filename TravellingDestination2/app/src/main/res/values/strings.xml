@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">TravellingDestination</string>
+    <string name="title_activity_navigation_bar">NavigationBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="aboutktm">Kathmandu is the capital city of Nepal. There are different
+ types of religious and culture</string>
+
+    <string name="aboutpokhara">Pokhara knows as heart of  tourist destinations in Nepal
+famous for boating and rafting etc.</string>
+
+    <string name="aboutmustang">Mustang City was a collection of all sorts of people and places seemingly heritage.</string>
+
+    <string name="aboutchitwan">Chitwan National Park is a preserved area in the Terai Lowlands of south-central Nepal.</string>
+
+
+    <string name="aboutboudha">Boudhanath is a stupa (Buddhist temple) in Kathmandu, Nepal. it is very famous and holy place specially of Buddhists People. It is one of the most popular world heritage site of Nepal. is one of the largest stupas in the world and popular tourist sites in the Kathmandu area..</string>
+
+    <string name="BoudhaHighlite">Located six miles from Thamel, the stupa’s complex is surrounded by over 50 gompas (aka Tibetan monasteries), Tibetan-Nepali cafes, parks and a strong Buddhist community.  From the outside, the streets of Boudha feel like a string of shops, homeless street bulls and dogs, clothing stores, a mall, laced with dusty air from the roads.  It doesn’t appear very attractive. But exploring this area may be of interest of travelers looking for deeper finds.</string>
+
+    <string name="aboutpasupati">Pashupatinath is considered the oldest Hindu temple of Kathmandu.
+
+The earliest evidence of the temple’s existence dates back to 400 A.D.
+Countless smaller temples were constructed around the main temple on both banks of Bagmati River in centuries ago.</string>
+
+
+    <string name="pasupatihighlite">There are numerous legends, connected with the construction of the temple. The most famous one claims, that the temple was built on the site where Shiva lost one of his antlers, while he was in the guise of a deer. He and his wife arrived to the bank of Bagmati and amazed by the beauty of the site decided to change themselves into deers and walk in the surrounding forests. </string>
+
+
+    <string name="thamelhighlite">Thamel is good tourist place. Many choices for restaurants and hotels in cheap price. Many spa you can find. Thamel is where you go if you are a tourist. Less traffic, easier to breathe, great browsing and shopping. You get pestered a lot though which can be annoying. Worth wandering around here. Book shops are really cheap and bargains for pashminas can be had. An area full of colour and temples.</string>
+
+    <string name="aboutthamel">Thamel has and continues to be, one of the most popular and crowded commercial hubs in Kathmandu City of Nepal. Be it cultural monuments or pubs, cosy restaurants or magnificent temples, the narrow alleys of Thamel has never failed to serve the tourist.</string>
+
+    <string name="basantapurhighlite">The architecture of basantapur is very historic and finely crafted. The place has old woody fragrance and can see lots of pigeons and monkey. The tea of different species and herbs are really fashion.  An unparalleled square with infinite and temples shrines</string>
+
+    <string name="aboutbasantapur">Basantapur is the heart of Kathmandu city. It carries a lot of cultural and historical significance for the people of Nepal. Known for its rich culture and arts, Basantapur is the hub for tourists and visitors. Prarthana Dixit takes you on a stroll around this mystical city.</string>
+
+    <string name="aboutswayambhu">Find peace and prayers on the little hillock of Swaymbhunath in the northwest of Kathmandu Valley. Visitors for whom the name was a tongue twister have called it "Monkey Temple" from the 1970s. The glory of Kathmandu Valley is said to have started</string>
+
+    <string name="swayambhuhighlite">Swayambhu literally means self-existent one. Believed to date back to 460 A.D., it was built by King Manadeva and by the 13th century, it had become an important center of Buddhism. Legend has it that Swayambhu was born out of a lotus flower that bloomed in the middle of a lake that once spread across the Kathmandu Valley once was. The largest crowds of people are seen here on Buddhas birthday in every years.</string>
+    <string name="aboutghandurkh">The village is a major recruitment centre for the famous Gurkha soldiers and is the hub of the Annapurna Conservation Area Project, which promotes many varied ecological projects. A wander round it will reveal shops, tea houses, local people transporting goods </string>
+
+    <string name="ghandurkhighlite">Ghandruk is a well-loved trekking destination that is an essential stop on the short Ghandruk Trek, as well as a fixture on other longer treks in the Annapurna Himalaya, such as the Annapurna Circuit. It is easily accessible from Pokhara through a combination of road travel and trekking. From Pokhara, take a private vehicle west along the Pokhara Baglung Rajmarg Road. Many trekkers setting off for treks.</string>
+
+
+    <string name="phewahighlite">Very lovely lake with stunning views on the mountain range. You find boat rentals along the lakeshore. The rentals at the southern part are quite busy, and they require that you also hire a staff member who does the rowing for you. However, if you go a little further north you will find boat rentals which are less busy and allow you to row yourself, which is more fun and romantic.
+    There is a small island with a busy temple.
+    </string>
+
+    <string name="aboutphewalake">Lake Feiwa, the second largest city in Nepal, is a beautiful city with beautiful mountains and rivers. The most famous and beautiful lake here is Lake Feiwa. The river is very quiet, boating on the lake, you can see Annapurna Snow Mountain peak.</string>
+
+    <string name="devidfallhighlite">It is an attraction for tourists and locals. Thousands of Nepalis visit for recreation and enjoyment. Visitors can try their luck on the luck pond constructed there by throwing and placing the coin on the statue of God. Likewise, one can find a model of traditional typical Nepali house and a series of statue of Nepali people wearing traditional dresses where visitors can click photo. Once it was considered as a suicide point since the locals.</string>
+
+    <string name="aboutdevidfall">The water forms a tunnel after reaching the bottom. This tunnel is approximately 500 feet (150 m) long and runs 100 feet (30 m) below ground level. On 31 July 1961, a Swiss couple went swimming but the woman drowned in a pit because of the overflow.</string>
+
+    <string name="aboutaanapurna">The Annapurna Conservation Area (7,629 km²) is a well known trekking region. There are three major trekking routes in the Annapurna region: the Jomson Trek to Jomsom and Muktinath (increasingly disturbed by a road-building project the Annapurna Sanctuary.</string>
+
+    <string name="aanapurnahighlite">Annapurna I has the greatest fatality rate of all the 14 eight-thousanders: as of March 2012, there have been 52 deaths during ascents, 191 successful ascents, and nine deaths upon descent. The ratio of 34 deaths per 100 safe returns on Annapurna I is followed by 29 for K2 and 21 for Nanga Parbat.Climbers killed on the peak include Britons Ian Clough in 1970 and Alex MacIntyre in 1982, Frenchman Pierre Béghin.</string>
+
+    <string name="aboutsarangkot">Sarangkot is in the ward 18 of Pokhara Municipality, Kaski District. In 2015, it was annexed to Pokhara 26. At the time of the 1991 Nepal census it had a total population of 5,060 with 1,010 individual households. The village is located on Sarangkot mountain </string>
+    <string name="sarangkothighlite">This tiny village just north of Pokhara is known for its stunning sunrises over the Annapurna Mountains. Travelers get incredible views and a taste of local village life during an overnight stay at this popular destination.
+
+    Read more about The 10 Best Sarangkot Tours and Tickets 2020 - Nepal | Viator. Visit the Shiva temple tucked away on the mountaintop, soak up stunning views of Phewa Lake and look for indigenous birds. </string>
+
+    <string name="aboutmuktinath">Muktinath is a Vishnu temple, sacred to both Hindus and Buddhists. It is located in Muktinath Valley at the foot of the Thorong La mountain pass in Mustang, Nepal. It is one of the world highest temples (altitude 3,800 m). The site is close to the village of Ranipauwa
+    </string>
+
+    <string name="muktinathhighlite">The Tibetan Buddhist tradition states that Guru Rinpoche, also known as Padmasambhava, the founder of Tibetan Buddhism, meditated at Muktinath on his way to Tibet. This temple is praised by many saints of the Hindu tradition. Scripts narrating the temple importance are available in Vishnu Purana with the Gandaki Mahathmya.[clarification needed]
+
+    The waterway downstream from Muktinath.</string>
+
+    <string name="aboutjomsom">Jomsom is a great place to start trekking. The diverse landscape and culture found along this trekking route give marvelous insight into the way of life of Nepali people of various ethnic groups. The highlight is a trek through the deepest gorge in the world</string>
+    <string name="jomsomhighlite">Jomsom is best known for its airport that offers a quick entry or exit to the valley with regular daily flights from Pokhara. The strong winds that blow up the valley prevents flights from taking off from Jomsom after 11 a.m. Jomsom can also be considered a place to use as a base for exploring the upper part of the Kali Gandaki region. There are numerous accommodation options including a new high-class resort complex.</string>
+
+    <string name="aboutkagbeni">ar away from the bustling town squares and temples and dance festivals of the towns and cities of Nepal, the village of Kagbeni awaits you with its audacious beauty. Officially Kagbeni is a settlement that bridges the gap between Lower and Upper Mustang.</string>
+
+    <string name="kagbenihighlite">There are many trekking trails from Kagbeni, that lead up to the old royal capital of Lo Manthang. While trekking, you will come across some Chortens and prayer wheels. Chortens are Buddhist tomb shrines, which are common in Tibetan culture, and must always be crossed by the right side. The Tibetan Buddhists consider it bad luck to cross by the left. You will see numerous colourful Buddhist flags.</string>
+
+    <string name="aboutmarpha">The village of Marpha is located at an altitude of 2,650 meters in the Kali Gandaki valley of the Annapurna Conservation Region in Mustang District in northern Nepal. Keeping in mind its remoteness and its barren terrain, one must say that the village.....</string>
+
+    <string name="marphahighlite">Today, many locals, belonging to almost every household, are somehow or the other engaged in the farming of apples. How did this turn of events come to be? Well, credit it to the establishment of the Horticultural Farm that was established here in 1966. It went on to bring about a minor revolution in the region by introducing various varieties of apples along with proven production methods. Today, the result of the farm’s.... </string>
+
+    <string name="aboutuppermustang">To trek in Upper Mustang is a rare privilege. Here you will experience a way of life of true mountain people, who for hundreds of years, had very little contact with the rest of Nepal and retained their rich cultural heritage. Until recent times their king was officially....</string>
+
+    <string name="uppermustanghighlite">Upper Mustang, being in the Himalayan rain shadow, is one of the regions in the country suitable for trekking even during the monsoons. During this time, the upper Kali Gandaki valley is still quite dry with only occasional rainfall. The Mustang trek is not particularly difficult, the highest point reached being only 3,800 meters, but the conditions at times can be arduous. Mustang is cold in winter and is always windy .</string>
+
+    <string name="aboutnationalpark">Nestled at the foot of the Himalayas, Chitwan has a particularly rich flora and fauna and is home to one of the last populations of single-horned Asiatic rhinoceros and is also one of the last refuges of the Bengal Tiger. Chitwan National Park (CNP), established in 1973..</string>
+
+    <string name="nationalhighlite">The park is the last surviving example of the natural ecosystems of the ‘Terai’ region and covers subtropical lowland, wedged between two east-west river valleys at the base of the Siwalik range of the outer Himalayas. The core area lies between the Narayani (Gandak) and Rapti rivers to the north and the Reu River and Nepal-India international border in the south, over the Sumeswar and Churia hills, and from the Dawney hills west.</string>
+
+    <string name="aboutcgtemple">Cg Temple is a spiritual travel destination located in Devchuli Municipality of Nawalpur district. The temple is inside the Cg industrial park owned by the Chaudhary Group. The temple is not just like a temple but for relaxation and religious travel....</string>
+
+    <string name="cgtemplehighlite">Cg temple is most visited temples in Nepal situated nearby Mahendra highway on the way to sacred Lumbini from Kathmandu or Chitwan. The temple is generally called as Shashwat Dham which got inagurated by president of Nepal Bidhya Devi Bhandari on March 07, 2017. The nawalpur district is connected with Mahendra highway and you can plan a trip to Chitwan National Park and Lumbini adding cg temple.....</string>
+
+    <string name="aboutbishazari">Bish Hazari (20 Thousand) lake is in the southern corner of Bharatpur. The lake is very attractive for the bird lovers and serves as an important bird watching center. The lake area houses lots of crocodiles and thus is equally attractive for the reptile lovers.</string>
+    <string name="bishazaritallhighlite">The lake likes inside Chitwan National park has good environment there. Some wild animals specially crocodiles and rhinos are found often near Bish Hajari Taal. Different birds migrate to Bish Hajar Taal from the Northern Pole of the earth in search of Suitable environment. In winter the Northern poles are very cold and to escape from the massive cold, birds migrate to Bish Hajari Taal.</string>
+
+    <string name="aboutRanipokhari">Apart from the park, there are other places to visit in Chitwan. One such destination is Ranipokhari. You can enjoy a boat ride in the pond of Kirangunj, Shardanagar, Chitrawan Municipality-4 of West Chitwan. The total area of ​​Ranipokhari is four bighas.</string>
+
+    <string name="ranipokharihighlite">Many locals say that the pond has already been built. It is estimated that the pond was named Rani Pokhari by a king who visited the area when there was no settlement around. Until a few years ago, the pond was only a place for livestock to drink water and live. Times have changed, locals have seen the potential of tourism there. He formed a committee and started pond lighting. Infrastructure was added.</string>
+
+    <string name="contactinfo">Before sending a message, please browse our FAQ page. Most questions regarding visiting place, itinerary becoming a supplier and more are already answered there.
+
+    </string>
+
+    <string name="contacttwo">If you would like to get in touch with us, please fill out your name, email address and message and we will get back to you shortly. Use this email for feedback <b>poold976@gmail.com</b> </string>
+
+    <string name="aboutinfo"> This is an app developed with the intention of providing useful information about our country Nepal. And to further flourish the Tourism Industry of Nepal.</string>
+
+    <string name="aboutapp">As we know our Travelling Destination mobile application helps to guide visit places in all over the nepal. Our application speciality is guide best of best places that can attract tourist or regular nepali travellers who want to explore new places. This application is made for them who want to visit places. </string>
+
+    <string name="benefits">Our application goal not just to guide popular place, but we have added the each and every places location map so, user can easily visit place through google map APIS, we pined each city that are available in this application.  </string>
+    <string name="keyfeautre">Our application is based travelling places which is located in Nepal. We have all the basic need and requirement that need to visit specific place. Our app tells the shows all the related images so, user can see surrounding environment images. </string>
+
+</resources>
+
+

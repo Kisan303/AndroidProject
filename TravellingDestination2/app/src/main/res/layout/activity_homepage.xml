@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F6F6 "
+    tools:context=".Homepage"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    >
+
+
+<!--     ******************** Navigation Menu XML*********************************-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="320dp"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="#808B96"
+            android:background="#F4F6F6"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="320dp"
+            android:onClick="profileclick"
+            android:outlineSpotShadowColor="#707B7C "
+            android:src="@drawable/profileimg"
+            android:elevation="10dp"
+            />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/activity_nav_header2"
+        app:menu="@menu/drawer_menu">
+    </com.google.android.material.navigation.NavigationView>
+
+
+<!--    *********************END OF THE NAVIGATION MENU ***************************-->
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Chitwan">
+
+    <!--        ********  BACK SPACE ICON ***************-->
+
+    <ImageView
+        android:onClick="backHomepage"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_keyboard_backspace_black_24dp"
+        android:layout_marginLeft="-12dp"
+
+        />
+
+
+    <!--        ***************PROFILE ICON  *************************-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/profileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:onClick="profileclick"
+        android:elevation="10dp"
+        android:src="@drawable/profileimg"
+
+        />
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Discover new adventure"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="90dp"
+
+            android:fontFamily="sans-serif-medium"
+            android:text="Find popular places in Chitwan city"
+            android:textColor="#D5D8DC"
+            android:textSize="13dp" />
+
+
+        <!--        ********** CHITWAN NATIONAL XML**********-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tochitwan"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/nationalpark"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="189dp"
+            android:background="@drawable/halfbox"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="196dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Chitwan,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="196dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="NationalPark"
+            android:textSize="20dp" />
+
+
+
+
+        <!--*********CG TEMPLE XML **************************-->
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tocgtemple"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="240dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/cgtemple"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="429dp"
+            android:background="@drawable/halfbox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="436dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Chitwan,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="436dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="CgTemple"
+            android:textSize="20dp" />
+
+
+
+        <!--**********BISHAZARITAAL XML********************-->
+
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="tobishazari"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="480dp"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/bishazaritaal"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            />
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="669dp"
+            android:background="@drawable/halfbox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="676dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Chitwan,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="676dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="BishazariTaal"
+            android:textSize="20dp" />
+
+
+        <!--**********RANI POKHARI XML*************************-->
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:onClick="toranipokhari"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="720dp"
+            android:scaleX="1.1"
+            android:scaleY=".9"
+            app:shadowColor="#17202A"
+            app:shadowRound="20dp"
+            app:shadowSrc="@drawable/ranipokharai" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="909dp"
+            android:background="@drawable/halfbox"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="916dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Chitwan,"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#273746"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="916dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="RaniPokhari"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
